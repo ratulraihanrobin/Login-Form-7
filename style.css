@@ -1,6 +1,6 @@
 body{
     padding: 0;
-    background: linear-gradient(90deg, #7debf2, #60a4ff);
+    background: linear-gradient(90deg, #f81d55, #cb6594);
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -26,7 +26,6 @@ body{
     position: absolute;
     top: -50px;
     left: calc(50% - 50px);
-    border: 3px solid linear-gradient( #7debf2, #60a4ff);
 }
 
 h1{
@@ -57,12 +56,16 @@ h1{
     font-size: 16px;
 }
 
+::placeholder {
+    letter-spacing: 2px;
+  }
+
 .loginbox input[type="submit"]{
     border: none;
     outline: none;
     height: 40px;
     width: 100%;
-    background: linear-gradient(90deg, #7debf2, #60a4ff);
+    background: linear-gradient(90deg, #f81d55, #cb6594);
     color: #fff;
     font-size: 18px;
     font-weight: 600;
@@ -72,13 +75,13 @@ h1{
 
 .loginbox input[type="submit"]:hover{
     cursor: pointer;
-    background: linear-gradient(90deg, #6dced4, #518ddb);
+    opacity: 0.8;
 }
 
 .loginbox a{
     text-decoration: none;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 25px;
     color: darkgray;
     transition: 0.3s;
 }
